@@ -8,7 +8,7 @@
   
   <style>
     body{
-      background-image: url('../assets/images/jonas-elia-x6HHgq2zDvI-unsplash.jpg');
+      background-image: url('assets/images/patrick-tomasso-lZbRV_a4Yxg-unsplash.jpg');
       margin-top: 150px;
       background-size: cover;
     }
@@ -43,7 +43,7 @@
         <% shortUrls.forEach(shortUrl => { %>
           <tr>
             <td><a href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
-            <td><a href="<%= shortUrl.short %>">https://bit.herokuapp.com/<%= shortUrl.short %></a></td>
+            <td><a href="<%= shortUrl.short %>">https://briefolink.herokuapp.com/<%= shortUrl.short %></a></td>
             <td><%= shortUrl.clicks %></td>
           </tr>
         <% }) %>
