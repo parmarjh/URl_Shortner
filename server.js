@@ -2,6 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
+app.use(express.static(__dirname+'/public'))
 
 // const loca = window.location.hostname;
 
